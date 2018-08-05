@@ -1,23 +1,6 @@
 !*************************************************
 ! Laplace OpenACC Fortran Version
 !
-! Temperature is initially 0.0
-! Boundaries are as follows:
-!
-!      0         T         0
-!   0  +-------------------+  0
-!      |                   |
-!      |                   |
-!      |                   |
-!   T  |                   |  T
-!      |                   |
-!      |                   |
-!      |                   |
-!   0  +-------------------+ 100
-!      0         T        100
-!
-!  John Urbanic, PSC 2014
-!
 !*************************************************
 program serial
       implicit none
